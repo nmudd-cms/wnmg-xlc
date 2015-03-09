@@ -24,3 +24,9 @@
 - [ ] API uses ISO 8601 in UTC for date/time.
 - [ ] API responses are JSON object (not an array). 
 - [ ] API should use under_score case for keys. Different languages use different case conventions. JSON uses under_score, not camelCase.
+
+# Credit, Inspiration & Resources
+18F API standard - https://github.com/18F/api-standards
+18F Developer Resource - https://18f.gsa.gov/developer/
+18F Developer program - http://18f.github.io/API-All-the-X/
+18F API guidelines - http://18f.github.io/API-Usability-Testing/pages/Agency-API-Guidelines
