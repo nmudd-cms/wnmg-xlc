@@ -17,6 +17,7 @@
 - [ ] API has a mechanism for clients to establish their own copy of the API's dataset in its entirety.
 
 ## Security
+- [ ] API keys and tokenization is used to track and manage clients
 - [ ] API endpoints will be on HTTPS (if needed).
 - [ ] API supports CORS for security (not JSONP).
 - [ ] API is using security best practices (based on OWASP, etc...).
