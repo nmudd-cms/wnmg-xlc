@@ -1,6 +1,6 @@
 # API Checklist
 
-##Best Practices
+##General
 - [ ] API is using standard HTML verbs.
 - [ ] API uses JSON as it's primary request/reponse format.
 - [ ] API is follow a semantically meaningful versioning convention (http://semver.org/).
