@@ -1,6 +1,5 @@
 # API Checklist
 
-## Standards & Best Practices
 - [ ] API is using standard HTML verbs.
 - [ ] API avoids using a single-endpoint. (We are not jamming multiple operations into the same endpoint with the same HTTP verb.)
 - [ ] API endpoints will be on HTTPS (if needed).
@@ -8,7 +7,6 @@
 - [ ] API uses HTTP Accept Headers.
 - [ ] API leverages Content Delivery Network (CDN) for security and caching (if externally exposed)
 - [ ] API can communicate via HTTP basic, oAuth or Akamai tokenization (ways to handshake).
-## Documentation
 - [ ] API has meaningful error and response messages and are being used appropiately.
 - [ ] API documentation is up-to-date and documentation stays up-to-date as part of the application lifecycle.
 - [ ] API documentation is offering an openly license suite of code samples, libraries and SDKs.
