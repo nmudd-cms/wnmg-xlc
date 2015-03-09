@@ -1,4 +1,4 @@
-# API Checklist
+#API Checklist
 
 ##General
 - [ ] API is using standard HTML verbs.
@@ -16,7 +16,7 @@
 - [ ] API is designed to accommodate future and currently unknown business requirements.
 - [ ] API has a mechanism for clients to establish their own copy of the API's dataset in its entirety.
 
-## Security
+##Security
 - [ ] API keys and tokenization is used to track and manage clients
 - [ ] API endpoints will be on HTTPS (if needed).
 - [ ] API supports CORS for security (not JSONP).
@@ -27,6 +27,14 @@
 - [ ] API documentation is up-to-date and documentation stays up-to-date as part of the application lifecycle.
 - [ ] API documentation is offering an openly license suite of code samples, libraries and SDKs.
 - [ ] API documentation is intuitive, simple, and up-to-date. Showing all API endpoints, complete with authentication details, is the standard with many APIs also providing interactive documentation using formats like Swagger or API Blueprint from Apiary.io.
+
+##Management
+- [ ] API has “self-service” registration in place via web interface that assigns a client a API key to track and manage the API. 
+- [ ] API can be throttled gracefully based on specific criteria (application token, geography, environment stress).
+- [ ] API has robust logging and analytics to measure usage, performance and behavior.
+- [ ] API is managed in publically accessible version control system like "Github.com" for third party developers to contribute.
+- [ ] API has a mechanism for clients to submit issues.
+- [ ] API has a mechanism to notify clients of changes.
 
 # Credit, Inspiration & Resources
 * 18F API standard - https://github.com/18F/api-standards
