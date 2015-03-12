@@ -1,4 +1,4 @@
-#API ChecklistT
+#API Checklist
 TODO: Add a description.
 ##General
 - [ ] API is using standard HTML verbs.
