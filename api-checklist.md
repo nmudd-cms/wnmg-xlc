@@ -1,4 +1,4 @@
-#API Checklist
+#API Standards Checklist
 The following checklist outlines the standards and best practices development team should follow when building an API for CMS. The idea is that this checklist would exist in an API's repo and all checklist items would be completed. This checklist relies heavily on work done by [18F](https://github.com/18F/api-standards) and the [White House](https://github.com/WhiteHouse/api-standards). We strongly recommend you checkout the links at the bottom to learn more about standards WNMG would like to align with. 
 
 ##General
