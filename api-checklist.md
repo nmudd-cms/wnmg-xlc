@@ -6,11 +6,11 @@ TODO: Add a description.
 - [ ] API is follow a semantically meaningful versioning convention (http://semver.org/).
 - [ ] API uses ISO 8601 in UTC for date/time.
 - [ ] API responses are JSON object (not an array). 
-- [ ] API should use under_score case for keys. Different languages use different case conventions. JSON uses under_score, not camelCase.
-- [ ] API avoids using a single-endpoint. (We are not jamming multiple operations into the same endpoint with the same HTTP verb.)
+- [ ] API is using under_score case for keys. (Different languages use different case conventions. JSON uses under_score, not camelCase).
+- [ ] API avoids jamming multiple operations into the same endpoint with the same HTTP verb.
 - [ ] API uses HTTP Accept Headers.
 - [ ] API leverages Content Delivery Network (CDN) for security and caching (if externally exposed)
-- [ ] API can communicate via HTTP basic, oAuth or Akamai tokenization (ways to handshake).
+- [ ] API has meaningful error and response messages and are being used appropiately.
 - [ ] API supports an unlimited number of clients.
 - [ ] API has 100% test coverage.
 - [ ] API is designed to accommodate future and currently unknown business requirements.
@@ -18,18 +18,17 @@ TODO: Add a description.
 
 ##Security
 - [ ] API keys and tokenization is used to track and manage clients
-- [ ] API endpoints will be on HTTPS (if needed).
+- [ ] API endpoints use HTTPS (if needed).
 - [ ] API supports CORS for security (not JSONP).
 - [ ] API is using security best practices (based on OWASP, etc...).
 
 ##Documentation
-- [ ] API has meaningful error and response messages and are being used appropiately.
-- [ ] API documentation is up-to-date and documentation stays up-to-date as part of the application lifecycle.
+- [ ] API documentation is up-to-date and documentation stays up-to-date as part of the API lifecycle.
 - [ ] API documentation is offering an openly license suite of code samples, libraries and SDKs.
 - [ ] API documentation is intuitive, simple, and up-to-date. Showing all API endpoints, complete with authentication details, is the standard with many APIs also providing interactive documentation using formats like Swagger or API Blueprint from Apiary.io.
 
 ##Management
-- [ ] API has “self-service” registration in place via web interface that assigns a client a API key to track and manage the API. 
+- [ ] API has “self-service” registration in place via web interface that assigns a client a API key to track and manage the API (if publically accessible). 
 - [ ] API can be throttled gracefully based on specific criteria (application token, geography, environment stress).
 - [ ] API has robust logging and analytics to measure usage, performance and behavior.
 - [ ] API is managed in publically accessible version control system like "Github.com" for third party developers to contribute.
