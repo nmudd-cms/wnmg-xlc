@@ -38,6 +38,7 @@ The following checklist outlines the standards and best practices development te
 - [ ] API has a mechanism to notify clients of changes.
 
 # Credit, Inspiration & Resources
+* White House API Standards - https://github.com/WhiteHouse/api-standards
 * 18F API standard - https://github.com/18F/api-standards
 * 18F Developer Resource - https://18f.gsa.gov/developer/
 * 18F Developer program - http://18f.github.io/API-All-the-X/
