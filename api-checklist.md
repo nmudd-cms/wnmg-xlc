@@ -1,5 +1,5 @@
 #API Checklist
-The following checklist outlines the standards and best practices development team should follow when building an API for CMS.
+The following checklist outlines the standards and best practices development team should follow when building an API for CMS. The idea is that this checklist would exist in an API's repo and all checklist items would be completed.
 
 ##General
 - [ ] API was built using an ["API-first"](http://apievangelist.com/2014/08/11/what-is-an-api-first-strategy-adding-some-dimensions-to-this-new-question/). mentality. - Before you build your website or application you develop an API first, then you get to work on defining the channels you will be making the API resources available on.
