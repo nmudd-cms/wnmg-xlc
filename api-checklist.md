@@ -1,6 +1,7 @@
 #API Checklist
 [Insert Description]
 ##General
+- [ ] API was built using an ["API-first"](http://apievangelist.com/2014/08/11/what-is-an-api-first-strategy-adding-some-dimensions-to-this-new-question/). mentality.
 - [ ] API is using standard HTML verbs (GET, POST, PUT, DELETE).
 - [ ] API uses JSON as it's primary request/reponse format.
 - [ ] API is follow a semantically meaningful versioning convention (http://semver.org/).
