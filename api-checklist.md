@@ -2,7 +2,7 @@
 The following checklist outlines the standards and best practices development team should follow when building an API for CMS.
 
 ##General
-- [ ] API was built using an ["API-first"](http://apievangelist.com/2014/08/11/what-is-an-api-first-strategy-adding-some-dimensions-to-this-new-question/). mentality.
+- [ ] API was built using an ["API-first"](http://apievangelist.com/2014/08/11/what-is-an-api-first-strategy-adding-some-dimensions-to-this-new-question/). mentality. - Before you build your website or application you develop an API first, then you get to work on defining the channels you will be making the API resources available on.
 - [ ] API is using standard HTML verbs (GET, POST, PUT, DELETE).
 - [ ] API uses JSON as it's primary request/reponse format.
 - [ ] API is follow a semantically meaningful versioning convention (http://semver.org/).
