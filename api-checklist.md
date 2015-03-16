@@ -1,7 +1,7 @@
 #API Checklist
-TODO: Add a description.
+[Insert Description]
 ##General
-- [ ] API is using standard HTML verbs.
+- [ ] API is using standard HTML verbs (GET, POST, PUT, DELETE).
 - [ ] API uses JSON as it's primary request/reponse format.
 - [ ] API is follow a semantically meaningful versioning convention (http://semver.org/).
 - [ ] API uses ISO 8601 in UTC for date/time.
