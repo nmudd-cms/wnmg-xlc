@@ -4,9 +4,16 @@ The following checklist outlines the standards and best practices development te
 ##General
 - [ ] API was built using an ["API-first"](http://apievangelist.com/2014/08/11/what-is-an-api-first-strategy-adding-some-dimensions-to-this-new-question/). mentality. - Before you build your website or application you develop an API first, then you get to work on defining the channels you will be making the API resources available on.
 - [ ] API is using standard HTTP verbs (GET, POST, PUT, DELETE).
+- [ ] API endpoint URLs identify a resource.
+- [ ] API endpoint URLs include nouns, not verbs.
+- [ ] API endpoint use plural nouns only for consistency (no singular nouns).
+- [ ] API uses a comma separted list for optional fields.
+- [ ] API formats should be in the form of api/v2/resource/{id}.json
+- [ ] API returns results with a default limit if not limit is identified.
 - [ ] API uses HTTP status codes correctly to indicate response success/failure.
 - [ ] API uses JSON as it's primary request/reponse format.
 - [ ] API is follow a semantically meaningful versioning convention (http://semver.org/).
+- [ ] API puts the version number of the API in the URL.
 - [ ] API uses ISO 8601 in UTC for date/time.
 - [ ] API responses are JSON object (not an array). 
 - [ ] API is using under_score case for keys. (Different languages use different case conventions. We use under_scores, not camelCase).
