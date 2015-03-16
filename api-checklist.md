@@ -2,7 +2,7 @@
 The following checklist outlines the standards and best practices development team should follow when building an API for CMS. The idea is that this checklist would exist in an API's repo and all checklist items would be completed. This checklist relies heavily on work done by [18F](https://github.com/18F/api-standards) and the [White House](https://github.com/WhiteHouse/api-standards). We strongly recommend you checkout the links at the bottom to learn more about standards WNMG would like to align with. 
 
 ##General
-- [ ] API was built using an ["API-first"](http://apievangelist.com/2014/08/11/what-is-an-api-first-strategy-adding-some-dimensions-to-this-new-question/). mentality. - Before you build your website or application you develop an API first, then you get to work on defining the channels you will be making the API resources available on.
+- [ ] API was built using an ["API-first"](http://apievangelist.com/2014/08/11/what-is-an-api-first-strategy-adding-some-dimensions-to-this-new-question/) mentality. - Before you build your website or application you develop an API first, then you get to work on defining the channels you will be making the API resources available on.
 - [ ] API is using standard HTTP verbs (GET, POST, PUT, DELETE).
 - [ ] API endpoint URLs identify a resource.
 - [ ] API endpoint URLs include nouns, not verbs.
