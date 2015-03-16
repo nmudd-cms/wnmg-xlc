@@ -3,24 +3,24 @@ The following checklist outlines the standards and best practices development te
 
 ##General
 - [ ] API was built using an ["API-first"](http://apievangelist.com/2014/08/11/what-is-an-api-first-strategy-adding-some-dimensions-to-this-new-question/). mentality. - Before you build your website or application you develop an API first, then you get to work on defining the channels you will be making the API resources available on.
-- [ ] API is using standard HTML verbs (GET, POST, PUT, DELETE).
+- [ ] API is using standard HTTP verbs (GET, POST, PUT, DELETE).
+- [ ] API uses HTTP status codes correctly to indicate response success/failure.
 - [ ] API uses JSON as it's primary request/reponse format.
 - [ ] API is follow a semantically meaningful versioning convention (http://semver.org/).
 - [ ] API uses ISO 8601 in UTC for date/time.
 - [ ] API responses are JSON object (not an array). 
-- [ ] API is using under_score case for keys. (Different languages use different case conventions. JSON uses under_score, not camelCase).
+- [ ] API is using under_score case for keys. (Different languages use different case conventions. We use under_scores, not camelCase).
 - [ ] API avoids jamming multiple operations into the same endpoint with the same HTTP verb.
 - [ ] API uses HTTP Accept Headers.
 - [ ] API leverages Content Delivery Network (CDN) for security and caching (if externally exposed)
 - [ ] API has meaningful error and response messages and are being used appropiately.
-- [ ] API supports an unlimited number of clients.
+- [ ] API supports an unlimited number of clients and proper SLAs have been defined for the API.
 - [ ] API has 100% test coverage.
-- [ ] API is designed to accommodate future and currently unknown business requirements.
 - [ ] API has a mechanism for clients to establish their own copy of the API's dataset in its entirety.
 
 ##Security
 - [ ] API keys and tokenization is used to track and manage clients
-- [ ] API endpoints use HTTPS (if needed).
+- [ ] API endpoints use HTTPS.
 - [ ] API supports CORS for security (not JSONP).
 - [ ] API is using security best practices (based on OWASP, etc...).
 
