@@ -3,6 +3,7 @@ The following checklist outlines the standards and best practices development te
 
 ##General
 - [ ] API was built using an ["API-first"](http://apievangelist.com/2014/08/11/what-is-an-api-first-strategy-adding-some-dimensions-to-this-new-question/) mentality. - Before you build your website or application you develop an API first, then you get to work on defining the channels you will be making the API resources available on.
+- [ ] API was developed with it's end user in mind. This means user interviews were conducted and involved in the design of the API.
 - [ ] API is using standard HTTP verbs (GET, POST, PUT, DELETE).
 - [ ] API endpoint URLs identify a resource.
 - [ ] API endpoint URLs include nouns, not verbs.
@@ -29,7 +30,8 @@ The following checklist outlines the standards and best practices development te
 - [ ] API keys and tokenization is used to track and manage clients
 - [ ] API endpoints use HTTPS.
 - [ ] API supports CORS for security (not JSONP).
-- [ ] API is using security best practices (based on OWASP, etc...).
+- [ ] API is using security best practices (based on OWASP Top Ten, etc...).
+- [ ] API logs are forwarding to the correct places.
 
 ##Documentation
 - [ ] API documentation is up-to-date and documentation stays up-to-date as part of the API lifecycle.
