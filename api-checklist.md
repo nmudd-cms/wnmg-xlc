@@ -36,7 +36,7 @@ The following checklist outlines the standards and best practices development te
 ##Documentation
 - [ ] API documentation is up-to-date and documentation stays up-to-date as part of the API lifecycle.
 - [ ] API documentation is offering an openly license suite of code samples, libraries and SDKs.
-- [ ] API documentation is intuitive, simple, and up-to-date. Showing all API endpoints, complete with authentication details, is the standard with many APIs also providing interactive documentation using formats like [Swagger](http://swagger.io/) or [API Blueprint](https://apiblueprint.org/) from [Apiary.io](http://apiary.io).
+- [ ] API documentation is intuitive, simple, and up-to-date. Showing all API endpoints, complete with authentication details, is the standard with many APIs also providing interactive documentation using [API Blueprint](https://apiblueprint.org/) from [Apiary.io](http://apiary.io).
 
 ##Management
 - [ ] API has “self-service” registration in place via web interface that assigns a client a API key to track and manage the API (if publically accessible). 
