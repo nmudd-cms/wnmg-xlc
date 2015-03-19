@@ -24,6 +24,7 @@ The following checklist outlines the standards and best practices development te
 - [ ] API has meaningful error and response messages and are being used appropiately.
 - [ ] API supports an unlimited number of clients and proper SLAs have been defined for the API.
 - [ ] API has 100% test coverage.
+- [ ] API had been performance tested.
 - [ ] API has a mechanism for clients to establish their own copy of the API's dataset in its entirety.
 
 ##Security
