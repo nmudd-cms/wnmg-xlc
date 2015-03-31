@@ -1,4 +1,4 @@
-# wnmg-xlc
+# WNMG XLC Documentation
 WIP/POC - This repo is a knowledge base for all WNMG application lifecycle documentation. Product teams can use these resources to create their own required documentation. 
 
 * Version Description Document
