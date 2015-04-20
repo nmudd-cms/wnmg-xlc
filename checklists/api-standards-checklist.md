@@ -4,10 +4,10 @@ The following checklist outlines the standards and best practices development te
 ##General
 - [ ] API was built using an ["API-first"](http://apievangelist.com/2014/08/11/what-is-an-api-first-strategy-adding-some-dimensions-to-this-new-question/) mentality. - Before you build your website or application you develop an API first, then you get to work on defining the channels you will be making the API resources available on.
 - [ ] API was developed with it's end user in mind. This means user interviews were conducted and involved in the design of the API.
-- [ ] API is using standard HTTP verbs (GET, POST, PUT, DELETE).
+- [ ] API is using standard HTTP verbs (GET, POST, PUT, DELETE, HEAD).
 - [ ] API endpoint URLs identify a resource.
 - [ ] API endpoint URLs include nouns, not verbs.
-- [ ] API endpoint use plural nouns only for consistency (no singular nouns).
+- [ ] API endpoint use plural nouns only for consistency (no singular nouns). Plural nouns are for a collection of resources.
 - [ ] API uses a comma separted list for optional fields.
 - [ ] API formats should be in the form of api/v2/resource/{id}.json
 - [ ] API returns results with a default limit if not limit is identified. [Setting up record limit](https://github.com/WhiteHouse/api-standards#record-limits).
