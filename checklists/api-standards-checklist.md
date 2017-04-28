@@ -1,7 +1,7 @@
-#API Standards Checklist
+# API Standards Checklist
 The following checklist outlines the standards and best practices development team should follow when building an API for CMS. The idea is that this checklist would exist in an API's repo and all checklist items would be completed. This checklist relies heavily on work done by [18F](https://github.com/18F/api-standards) and the [White House](https://github.com/WhiteHouse/api-standards). We strongly recommend you checkout the links at the bottom to learn more about standards WNMG would like to align with. 
 
-##General
+## General
 - [ ] API was built using an ["API-first"](http://apievangelist.com/2014/08/11/what-is-an-api-first-strategy-adding-some-dimensions-to-this-new-question/) mentality. - Before you build your website or application you develop an API first, then you get to work on defining the channels you will be making the API resources available on.
 - [ ] API was developed with it's end user in mind. This means user interviews were conducted and involved in the design of the API.
 - [ ] API is using standard HTTP verbs (GET, POST, PUT, DELETE, HEAD).
@@ -27,19 +27,19 @@ The following checklist outlines the standards and best practices development te
 - [ ] API had been performance tested.
 - [ ] API has a mechanism for clients to establish their own copy of the API's dataset in its entirety.
 
-##Security
+## Security
 - [ ] API keys and tokenization is used to track and manage clients
 - [ ] API endpoints use HTTPS.
 - [ ] API supports CORS for security (not JSONP).
 - [ ] API is using security best practices (based on OWASP Top Ten, etc...).
 - [ ] API logs are forwarding to the correct places.
 
-##Documentation
+## Documentation
 - [ ] API documentation is up-to-date and documentation stays up-to-date as part of the API lifecycle.
 - [ ] API documentation is offering an openly license suite of code samples, libraries and SDKs.
 - [ ] API documentation is intuitive, simple, and up-to-date. Showing all API endpoints, complete with authentication details, is the standard with many APIs also providing interactive documentation using [API Blueprint](https://apiblueprint.org/) from [Apiary.io](http://apiary.io) or [Swagger.io] (http://swagger.io/).
 
-##Management
+## Management
 - [ ] API has “self-service” registration in place via web interface that assigns a client a API key to track and manage the API (if publically accessible). 
 - [ ] API can be throttled gracefully based on specific criteria (application token, geography, environment stress).
 - [ ] API has robust logging and analytics to measure usage, performance and behavior.
