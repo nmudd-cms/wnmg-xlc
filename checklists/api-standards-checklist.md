@@ -11,6 +11,7 @@ The following checklist outlines the standards and best practices development te
 - [ ] API uses a comma separted list for optional fields.
 - [ ] API formats should be in the form of api/v2/resource/{id}.json
 - [ ] API returns results with a default limit if not limit is identified. [Setting up record limit](https://github.com/WhiteHouse/api-standards#record-limits).
+- [ ] API uses [JSON API specfications](http://jsonapi.org/).
 - [ ] API uses HTTP status codes correctly to indicate response success/failure.
 - [ ] API uses JSON as it's primary request/reponse format.
 - [ ] API is follow a semantically meaningful versioning convention (http://semver.org/).
