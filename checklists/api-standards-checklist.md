@@ -38,12 +38,12 @@ The following checklist outlines the standards and best practices development te
 ## Documentation
 - [ ] API documentation is up-to-date and documentation stays up-to-date as part of the API lifecycle.
 - [ ] API documentation is offering an openly license suite of code samples, libraries and SDKs.
-- [ ] API documentation is intuitive, simple, and up-to-date. Showing all API endpoints, complete with authentication details, is the standard with many APIs also providing interactive documentation using [API Blueprint](https://apiblueprint.org/) from [Apiary.io](http://apiary.io) or [Swagger.io] (http://swagger.io/).
+- [ ] API documentation is intuitive, simple, and up-to-date. Showing all API endpoints, complete with authentication details, is the standard with many APIs also providing interactive documentation using [API Blueprint](https://apiblueprint.org/) from [Apiary.io](http://apiary.io) or [Swagger.io] (http://swagger.io/). (WNMG is going to be using Mashupe Gelato - On Premise in the coming months) 
 
 ## Management
 - [ ] API has “self-service” registration in place via web interface that assigns a client a API key to track and manage the API (if publically accessible). 
 - [ ] API can be throttled gracefully based on specific criteria (application token, geography, environment stress).
-- [ ] API has robust logging and analytics to measure usage, performance and behavior.
+- [ ] API has robust logging and analytics to measure usage, performance and behavior. (WNMG uses Mashupe Galileo)
 - [ ] API is managed in publically accessible version control system like "Github.com" for third party developers to contribute.
 - [ ] API has a mechanism for clients to submit issues.
 - [ ] API has a mechanism to notify clients of changes.
